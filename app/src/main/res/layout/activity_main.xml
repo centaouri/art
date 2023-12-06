@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BF08D"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="ART"
+        android:textColor="#323C2F"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Automatic Recycle Trash-can"
+        android:textColor="#323C2F"
+        android:textSize="22sp"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/subtitleTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manager system"
+        android:textColor="#323C2F"
+        android:textSize="22sp"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="225dp"
+        android:layout_height="150dp"
+        android:text="CONNECT!"
+        android:textSize="36dp"
+        android:textColor="#9BF08D"
+        android:background="#323C2F"
+        android:layout_below="@id/subtitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <ListView
+        android:id="@+id/deviceListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="300dp"
+        android:background="#9BF08D"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
